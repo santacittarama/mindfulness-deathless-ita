@@ -1,0 +1,253 @@
+\documentclass[11pt,twoside,final]{memoir}
+
+\usepackage{mylayout}
+
+%% Details of the book
+%% ===================
+
+\title{Consapevolezza: la via al senza-morte}
+\subtitle{Insegnamenti sulla meditazione del Venerabile Ajahn Sumedho}
+\author{Ajahn Sumedho}
+\date{}
+\editionInfo{\textit{First edition}, 2,000 copies, printed in Thailand -- 2012}
+% Title comment: ...
+% Publisher name: ...
+% Printer name: ...
+\ISBN{000-0-0000000-0-0 FIXME!}
+% Copyright text: ...
+
+%% Load further packages
+%% =====================
+
+% \usepackage{lipsum}
+
+%% Hyphenation exceptions and corrections
+%% ======================================
+
+% \hyphenation{}
+
+\begin{document}
+
+\emptysheet
+
+%% Frontmatter
+%% ===========
+
+\frontmatter*
+\midsloppy
+
+%% About
+%% -----
+%% Short review or summary of the book, or comments by others.
+%% Brief bigraphy of the author, translator, editor, and their connection to the text.
+
+\cleartoverso
+\thispagestyle{empty}
+\input{./src-tex/about.tex}
+
+%% Title page
+%% ----------
+%% subtitle, editor, translator, preface by, introduction by, publisher
+
+\cleartorecto
+\thispagestyle{empty}
+\input{./src-tex/titlepage.tex}
+
+%% Copyright page
+%% --------------
+%% publisher info, edition info, ISBN, etc.
+
+\cleartoverso
+\thispagestyle{empty}
+\input{./src-tex/copyright.tex}
+
+%% Acknowledgements
+%% ----------------
+%% * acknowledgement of sponsors
+%% * summary of where this material comes from
+%% * translator(s) and original sources
+%% * acknowledgement permissions to reprint sections that appeared somewherer else
+
+\cleartorecto
+\thispagestyle{empty}
+\input{./src-tex/acknowledgements.tex}
+
+%% Dedication
+%% ----------
+
+% \cleartorecto
+% \thispagestyle{empty}
+% {\raggedleft\vspace*{5em}\par
+% To all who write summaries of \emph{imaginary} books
+% \par}
+
+%% Table of Contents
+%% -----------------
+
+\cleartorecto
+\tableofcontents*
+
+%% Preface
+%% Introduction
+%% ----------------
+
+\chapterstyle{frontmatter}
+
+\chapter{Prefazione}
+\input{./src-tex/introduction.tex}
+
+%% Verse
+%% -----
+
+\cleartorecto
+\thispagestyle{empty}
+{\raggedleft\vspace*{5em}
+
+\begin{minipage}{0.8\linewidth}
+\raggedright
+
+\begin{quote}
+La consapevolezza è la via al \textit{senza-morte}\\
+La distrazione è la via alla morte\\
+Chi è consapevole non muore\\
+Chi è distratto è come fosse già morto.\\
+
+{\small\textit{Dhammapada v. 21}}
+\end{quote}
+
+\end{minipage}
+
+}
+
+%% Main matter
+%% ===========
+
+\mainmatter*
+
+\book*{\thetitle}
+
+\setcounter{chapter}{0}
+
+\chapterstyle{mainmatter}
+
+\chapter{Note introduttive}
+\input{./src-tex/a-note-before-you-begin.tex}
+
+\cleartoverso
+\thispagestyle{empty}
+\label{image-stupa}
+{\centering\par
+{\LARGE Stupa}\\
+\tikz\draw (0,0) rectangle (90mm,120mm);
+\par}
+
+\part{Investigation}
+
+\chapter{Che cos'e' la meditazione?}
+\input{./src-tex/what-is-meditation.tex}
+
+\cleartoverso
+\thispagestyle{empty}
+\label{image-feet}
+{\centering\par
+{\LARGE Feet}\\
+\tikz\draw (0,0) rectangle (90mm,120mm);
+\par}
+
+\part{Istruzioni}
+
+\chapter{Consapevolezza del respiro}
+\input{./src-tex/watching-the-breath.tex}
+
+\chapter{Il mantra Buddho}
+\input{./src-tex/mantra-buddho.tex}
+
+\chapter{Sforzo e rilassamento}
+\input{./src-tex/effort-and-relaxation.tex}
+
+\chapter{La meditazione camminata}
+\input{./src-tex/walking-mindfully.tex}
+
+\chapter{Benevolenza}
+\input{./src-tex/kindness.tex}
+
+\chapter{Consapevolezza dell'ordinario}
+\input{./src-tex/mindfulness-of-the-ordinary.tex}
+
+\chapter{Ascoltare i pensieri}
+\input{./src-tex/listening-to-thought.tex}
+
+\chapter{Gli impedimenti e la cessazione degli impedimenti}
+\input{./src-tex/hindrances.tex}
+
+\chapter{Vuoto e forma}
+\input{./src-tex/emptiness-and-form.tex}
+
+\chapter{Vigilanza}
+\input{./src-tex/inner-vigilance.tex}
+
+\cleartoverso
+\thispagestyle{empty}
+\label{image-lotus-scene}
+{\centering\par
+{\LARGE Lotus scene}\\
+\tikz\draw (0,0) rectangle (90mm,120mm);
+\par}
+
+\part{Reflection}
+
+\chapter{Nel mondo c'e' bisogno di saggezza}
+\input{./src-tex/need-for-wisdom.tex}
+
+%% Backmatter
+%% ==========
+%% Appendices, Glossary, Notes, Index...
+
+\backmatter
+
+\bookmarksetup{startatroot}
+
+\chapterstyle{backmatter}
+
+\chapter{Rifugi e Precetti}
+%\input{./src-tex/refuges-and-precepts.tex}
+
+%% Copyright details
+%% -----------------
+
+\newpage
+
+"Il dono del Dhamma supera ogni altro dono"
+
+Questo libro è offerto per la distribuzione gratuita, nella speranza che
+possa essere di beneficio a chi desidera intraprendere un cammino di
+approfondimento e comprensione del proprio vivere. Per noi del monastero
+Santacittarama è un grande privilegio rendere disponibili libri come
+questo, e saremmo felici di continuare a farlo. Riceviamo volentieri i
+commenti e le osservazioni dei lettori.
+
+I costi di questa pubblicazione sono stati coperti da libere donazioni —
+una preziosa opportunità per molti di sponsorizzare iniziative e
+dedicare la propria offerta, in linea con la tradizione buddhista.
+Future ristampe di questa o di altre opere dello stesso genere dipendono
+direttamente dai contributi offerti in tal senso. Chi fosse interessato
+a partecipare alla sponsorizzazione di "Doni di Dhamma" come questo, può
+contattarci al seguente indirizzo:
+
+MONASTERO SANTACITTARAMA
+
+Località Brulla, I–02030 Frasso Sabino (RI)
+
+www.santacittarama.org
+
+sangha@santacittarama.org
+
+Grazie.
+
+\cleartorecto
+\thispagestyle{plain}
+\input{./src-tex/copyright-details.tex}
+
+\emptysheet
+
+\end{document}

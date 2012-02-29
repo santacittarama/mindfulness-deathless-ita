@@ -1,0 +1,13 @@
+\documentclass{article}
+\usepackage[
+  paperwidth=10.5in,
+  paperheight=8in,
+  landscape,
+  nohead,
+  nofoot,
+  margin=0pt]{geometry}
+\usepackage{pdfpages}
+\begin{document}
+% This is a staple-bound book, no spine
+\includepdfmerge[nup=1x2,landscape]{cover_back.pdf,cover_front.pdf}
+\end{document}
