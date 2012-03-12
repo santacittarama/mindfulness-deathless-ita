@@ -1,19 +1,18 @@
 \select@language {italian}
 \contentsline {chapter}{Prefazione}{13}{chapter*.1}
 \contentsline {chapter}{\chapternumberline {1}Note introduttive}{19}{chapter.1}
-\contentsline {part}{\partnumberline {I}Investigazione}{23}{part.1}
-\contentsline {chapter}{\chapternumberline {2}Che cos'e' la meditazione?}{25}{chapter.2}
-\contentsline {part}{\partnumberline {II}Istruzioni}{37}{part.2}
-\contentsline {chapter}{\chapternumberline {3}Consapevolezza del respiro}{39}{chapter.3}
-\contentsline {chapter}{\chapternumberline {4}Il mantra Buddho}{43}{chapter.4}
-\contentsline {chapter}{\chapternumberline {5}Sforzo e rilassamento}{49}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}La meditazione camminata}{57}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Benevolenza}{61}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Consapevolezza dell'ordinario}{67}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Ascoltare i pensieri}{71}{chapter.9}
-\contentsline {chapter}{\chapternumberline {10}Gli impedimenti e la cessazione degli impedimenti}{79}{chapter.10}
-\contentsline {chapter}{\chapternumberline {11}Vuoto e forma}{85}{chapter.11}
-\contentsline {chapter}{\chapternumberline {12}Vigilanza}{93}{chapter.12}
-\contentsline {part}{\partnumberline {III}Riflessione}{101}{part.3}
-\contentsline {chapter}{\chapternumberline {13}Nel mondo c'e' bisogno di saggezza}{103}{chapter.13}
-\contentsline {chapter}{Rifugi e Precetti}{117}{chapter*.5}
+\contentsline {part}{\partnumberline {I}Investigazione}{21}{part.1}
+\contentsline {chapter}{\chapternumberline {2}Che cos'e' la meditazione?}{23}{chapter.2}
+\contentsline {part}{\partnumberline {II}Istruzioni}{35}{part.2}
+\contentsline {chapter}{\chapternumberline {3}Consapevolezza del respiro}{37}{chapter.3}
+\contentsline {chapter}{\chapternumberline {4}Il mantra Buddho}{41}{chapter.4}
+\contentsline {chapter}{\chapternumberline {5}Sforzo e rilassamento}{47}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}La meditazione camminata}{55}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Benevolenza}{59}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Consapevolezza dell'ordinario}{65}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}Ascoltare i pensieri}{69}{chapter.9}
+\contentsline {chapter}{\chapternumberline {10}Gli impedimenti e la cessazione degli impedimenti}{77}{chapter.10}
+\contentsline {chapter}{\chapternumberline {11}Vuoto e forma}{83}{chapter.11}
+\contentsline {chapter}{\chapternumberline {12}Vigilanza}{91}{chapter.12}
+\contentsline {part}{\partnumberline {III}Riflessione}{97}{part.3}
+\contentsline {chapter}{\chapternumberline {13}Nel mondo c'e' bisogno di saggezza}{99}{chapter.13}
