@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  12 MAR 2012 18:06
+This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  27 MAR 2012 09:12
  restricted \write18 enabled.
 **book_main.tex
 (./book_main.tex
@@ -1768,7 +1768,7 @@ File: pd1enc.def 2011/12/04 v6.82m Hyperref: PDFDocEncoding definition (HO)
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `draft' set `true' on input line 3925.
+Package hyperref Info: Option `final' set `true' on input line 3925.
 Package hyperref Info: Hyper figures OFF on input line 4046.
 Package hyperref Info: Link nesting OFF on input line 4051.
 Package hyperref Info: Hyper index ON on input line 4054.
@@ -1819,8 +1819,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip265
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 140.
-Package hyperref Info: Option `unicode' set `true' on input line 140.
+Package hyperref Info: Option `colorlinks' set `true' on input line 139.
+Package hyperref Info: Option `unicode' set `true' on input line 139.
 
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2011/12/04 v6.82m Hyperref: PDF Unicode definition (HO)
@@ -1835,16 +1835,12 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 File: bkm-pdftex.def 2011/04/21 v1.21 bookmark driver for pdfTeX (HO)
 \BKM@id=\count406
 ))
-(/home/hotaru/texlive/2011/texmf-dist/tex/latex/nowidow/nowidow.sty
-Package: nowidow 2011/09/20 1.0 Easily prevent widows and orphans
-Package: nowidow 
-)
 \quotepagebox=\box302
 \toctopskip=\skip266
 .................................................
 . xparse info: "define-command"
 . 
-. Defining document command \Section with arg. spec. 'oom' on line 365.
+. Defining document command \Section with arg. spec. 'oom' on line 385.
 .................................................
 
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/footmisc/footmisc.sty
@@ -2057,9 +2053,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-Package hyperref Warning: Draft mode on.
-
 Package hyperref Info: Link coloring ON on input line 29.
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -2089,8 +2082,6 @@ Package microtype Info: Redefining babel's language switching commands.
 [1
 
 
-] [2] [3
-
 
 ] (./src-tex/about.tex
 luaotfload | load font: auto-selecting default features for script: dflt (was l
@@ -2108,31 +2099,31 @@ luaotfload | load font: font family='arnopro', subfamily='regular' found: /home
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='gentium', subfamily='italic' found: GenI10
-2.ttf [4{/home/hotaru/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+2.ttf [2{/home/hotaru/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 }]
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='arnopro', subfamily='regular' found: /home
-/hotaru/.fonts/licenced-for-harnham/ArnoPro/Arno Pro/ArnoPro-Regular.otf) [5
+/hotaru/.fonts/licenced-for-harnham/ArnoPro/Arno Pro/ArnoPro-Regular.otf) [3
 
-] [6
+] [4
 
 ] (./src-tex/titlepage.tex
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='arnopro', subfamily='regular' found: /home
-/hotaru/.fonts/licenced-for-harnham/ArnoPro/Arno Pro/ArnoPro-Regular.otf) [7]
+/hotaru/.fonts/licenced-for-harnham/ArnoPro/Arno Pro/ArnoPro-Regular.otf) [5]
 (./src-tex/copyright.tex
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='gentium', subfamily='regular' found: GenR1
 02.ttf
-LaTeX Font Info:    Try loading font information for EU2+cms on input line 41.
-LaTeX Font Info:    No file EU2cms.fd. on input line 41.
+LaTeX Font Info:    Try loading font information for EU2+cms on input line 45.
+LaTeX Font Info:    No file EU2cms.fd. on input line 45.
 
 
 LaTeX Font Warning: Font shape `EU2/cms/m/n' undefined
-(Font)              using `EU2/lmr/m/n' instead on input line 41.
+(Font)              using `EU2/lmr/m/n' instead on input line 45.
 
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)(load: /home/hotaru/.texlive2011/texmf-var/luatex-cache/generic/fonts/otf/t
@@ -2152,18 +2143,18 @@ atn)
 luaotfload | load font: font family='gentium', subfamily='regular' found: GenR1
 02.ttf
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 41.
+(Font)              <9> on input line 45.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 41.
+(Font)              <6> on input line 45.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 41.
+(Font)              <5> on input line 45.
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)(load: /home/hotaru/.texlive2011/texmf-var/luatex-cache/generic/fonts/otf/t
 emp-lmroman6-regular.lua)
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='gentium', subfamily='italic' found: GenI10
-2.ttf) [8
+2.ttf) [6
 
 ] (./src-tex/acknowledgements.tex
 luaotfload | load font: auto-selecting default features for script: dflt (was l
@@ -2174,9 +2165,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 22.
-) [9
+) [7
 
-] [10
+] [8
 
 ]
 luaotfload | load font: auto-selecting default features for script: dflt (was l
@@ -2210,7 +2201,7 @@ luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 4.
- [11])
+ [9])
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='arnopro', subfamily='italic' found: /home/
@@ -2219,7 +2210,7 @@ luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='arnopro', subfamily='italic' found: /home/
 hotaru/.fonts/licenced-for-harnham/ArnoPro/Arno Pro Italic/ArnoPro-Italic.otf [
-12]
+10]
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='arnopro', subfamily='regular' found: /home
@@ -2267,126 +2258,122 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <22> not available
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <15.39993> not available
 (Font)              size <14.4> substituted on input line 96.
 
-(./src-tex/introduction.tex [13
+(./src-tex/introduction.tex [11
 
-]) [14]
+]) [12]
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='gentium', subfamily='italic' found: GenI10
-2.ttf [15
+2.ttf [13
 
-] [16
+] [14
 
-] [17] [18
+] [15] [16
 
 ]
 (./src-tex/a-note-before-you-begin.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19])
-[20] [21
+ [17])
+[18] [19
 
-] [22] (./src-tex/what-is-meditation.tex
+] [20] (./src-tex/what-is-meditation.tex
 Underfull \vbox (badness 1331) has occurred while \output is active []
 
- [23
+ [21
 
 ]
-[24] [25] [26] [27] [28]
+[22] [23] [24] [25] [26]
 Overfull \vbox (10.40001pt too high) has occurred while \output is active []
 
 
-[29] [30] [31] [32]) [33] [34
+[27] [28] [29] [30]) [31] [32
 
-] [35] [36] (./src-tex/watching-the-breath.tex
+] [33] [34] (./src-tex/watching-the-breath.tex
 Overfull \vbox (5.65826pt too high) has occurred while \output is active []
 
 
-[37
+[35
 
-] [38]) [39] [40
+] [36]) [37] [38
 
 ] (./src-tex/mantra-buddho.tex
 Overfull \vbox (5.65826pt too high) has occurred while \output is active []
 
 
-[41] [42] [43] [44]) [45] [46
+[39] [40] [41] [42]) [43] [44
 
 ] (./src-tex/effort-and-relaxation.tex
 Underfull \vbox (badness 1331) has occurred while \output is active []
 
- [47]
+ [45]
 Overfull \vbox (10.40001pt too high) has occurred while \output is active []
 
 
-[48] [49] [50] [51] [52]) [53] [54
+[46] [47] [48] [49] [50]) [51] [52
 
 ] (./src-tex/walking-mindfully.tex
 Overfull \vbox (10.65826pt too high) has occurred while \output is active []
 
 
-[55] [56]) [57] [58
+[53] [54]) [55] [56
 
 ] (./src-tex/kindness.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59]
-[60] [61] [62]) [63] [64
+ [57]
+[58] [59] [60]) [61] [62
 
 ] (./src-tex/mindfulness-of-the-ordinary.tex
 Underfull \vbox (badness 1394) has occurred while \output is active []
 
- [65]
-[66] [67]) [68] (./src-tex/listening-to-thought.tex
+ [63]
+[64] [65]) [66] (./src-tex/listening-to-thought.tex
 Underfull \vbox (badness 1331) has occurred while \output is active []
 
- [69
+ [67
 
 ]
-[70] [71] [72] [73] [74]) [75] [76
+[68] [69] [70] [71] [72]) [73] [74
 
-] (./src-tex/hindrances.tex [77] [78]
-[79] [80]
+] (./src-tex/hindrances.tex [75] [76]
+[77] [78]
 Overfull \vbox (10.40001pt too high) has occurred while \output is active []
 
 
-[81]) [82] (./src-tex/emptiness-and-form.tex
+[79]) [80] (./src-tex/emptiness-and-form.tex
 Underfull \vbox (badness 1331) has occurred while \output is active []
 
- [83
+ [81
 
 ]
-[84]
+[82]
 Overfull \vbox (0.40001pt too high) has occurred while \output is active []
 
 
-[85] [86] [87]) [88] [89] [90
+[83] [84] [85]) [86] [87] [88
 
 ] (./src-tex/inner-vigilance.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91]
-[92] [93] [94] [95]) [96] [97
+ [89]
+[90] [91] [92] [93]) [94] [95
 
-] [98] (./src-tex/need-for-wisdom.tex [99
+] [96] (./src-tex/need-for-wisdom.tex [97
 
 ]
-[100] [101]
+[98] [99] [100] [101] [102] [103] [104]
 Overfull \vbox (10.40001pt too high) has occurred while \output is active []
 
 
-[102] [103] [104] [105] [106]
-Overfull \vbox (10.40001pt too high) has occurred while \output is active []
-
-
-[107] [108]) [109] [110
+[105] [106]) [107] [108
 
 ] (./src-tex/copyright-details.tex
 luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)) [111] [112] [113
+atn) [109]) [110] [111
 
 ]
-[114]
+[112]
 No complaints by nag.
 \tf@toc=\write5
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 266.
@@ -2405,66 +2392,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  )
 
 Here is how much of LuaTeX's memory you used:
- 35227 strings out of 494987
+ 35307 strings out of 494987
  100000,794899 words of node,token memory allocated
- 2407 words of node memory still in use:
+ 2409 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 2 glue, 193 glyph, 103 attribute, 135 glue_spec, 1
 03 attribute_list, 4 write, 1 pdf_colorstack nodes
-   avail lists: 2:11137,3:266,4:1279,5:322,6:5331,7:773,9:274,10:926
- 37301 multiletter control sequences out of 65536+200000
+   avail lists: 2:10999,3:288,4:1238,5:317,6:5231,7:728,8:21,9:272,10:907
+ 37272 multiletter control sequences out of 65536+200000
  81 fonts using 9085027 bytes
- 69i,12n,57p,925b,492s stack positions out of 5000i,500n,10000p,200000b,50000s
-LuaTeX warning (dest): name{chapter.13} has been referenced but does not exist,
- replaced by a fixed one
-
-LuaTeX warning (dest): name{part.3} has been referenced but does not exist, rep
-laced by a fixed one
-
-LuaTeX warning (dest): name{chapter.12} has been referenced but does not exist,
- replaced by a fixed one
-
-LuaTeX warning (dest): name{chapter.11} has been referenced but does not exist,
- replaced by a fixed one
-
-LuaTeX warning (dest): name{chapter.10} has been referenced but does not exist,
- replaced by a fixed one
-
-LuaTeX warning (dest): name{chapter.9} has been referenced but does not exist, 
-replaced by a fixed one
-
-LuaTeX warning (dest): name{chapter.8} has been referenced but does not exist, 
-replaced by a fixed one
-
-LuaTeX warning (dest): name{chapter.7} has been referenced but does not exist, 
-replaced by a fixed one
-
-LuaTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
-replaced by a fixed one
-
-LuaTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
-replaced by a fixed one
-
-LuaTeX warning (dest): name{chapter.4} has been referenced but does not exist, 
-replaced by a fixed one
-
-LuaTeX warning (dest): name{chapter.3} has been referenced but does not exist, 
-replaced by a fixed one
-
-LuaTeX warning (dest): name{part.2} has been referenced but does not exist, rep
-laced by a fixed one
-
-LuaTeX warning (dest): name{chapter.2} has been referenced but does not exist, 
-replaced by a fixed one
-
-LuaTeX warning (dest): name{part.1} has been referenced but does not exist, rep
-laced by a fixed one
-
-LuaTeX warning (dest): name{chapter.1} has been referenced but does not exist, 
-replaced by a fixed one
-
-LuaTeX warning (dest): name{chapter*.1} has been referenced but does not exist,
- replaced by a fixed one
-
+ 69i,12n,57p,925b,494s stack positions out of 5000i,500n,10000p,200000b,50000s
 </home/hotaru/.fonts/licenced-for-harnham/ArnoPro/Arno Pro Italic/ArnoPro-Itali
 c.otf></home/hotaru/.fonts/Gentium102/GenR102.TTF></home/hotaru/texlive/2011/te
 xmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></home/hotaru/texlive/20
@@ -2473,10 +2409,10 @@ ve/2011/texmf-dist/fonts/truetype/public/gentium/GenI102.ttf></home/hotaru/texl
 ive/2011/texmf-dist/fonts/truetype/public/gentium/GenR102.ttf></home/hotaru/.fo
 nts/licenced-for-harnham/ArnoPro/Arno Pro/ArnoPro-Regular.otf></home/hotaru/tex
 live/2011/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb>
-Output written on book_main.pdf (114 pages, 252329 bytes).
+Output written on book_main.pdf (112 pages, 254361 bytes).
 
-PDF statistics: 500 PDF objects out of 1000 (max. 8388607)
- 358 compressed objects within 4 object streams
- 17 named destinations out of 1000 (max. 131072)
+PDF statistics: 646 PDF objects out of 1000 (max. 8388607)
+ 504 compressed objects within 6 object streams
+ 133 named destinations out of 1000 (max. 131072)
  152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
