@@ -1,0 +1,6 @@
+*.swp
+*.aux
+*.log
+*.toc
+build/latex/book_main.pdf
+build/latex/auto/
