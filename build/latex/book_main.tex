@@ -13,7 +13,7 @@
 % Title comment: ...
 % Publisher name: ...
 % Printer name: ...
-\ISBN{978-1-870205-45-0}
+\ISBN{978-8-8885706-35-4}
 % Copyright text: ...
 
 %% Load further packages
@@ -86,6 +86,8 @@
 
 \cleartorecto
 \tableofcontents*
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\thispagestyle{empty}
 
 %% Preface
 %% Introduction
@@ -107,10 +109,10 @@
 \raggedright
 
 \begin{quote}
-La consapevolezza è la via al \textit{senza-morte}\\
-La distrazione è la via alla morte\\
-Chi è consapevole non muore\\
-Chi è distratto è come fosse già morto.\\
+La consapevolezza è la via al \textit{senza-morte},\\
+la distrazione è la via alla morte.\\
+Chi è consapevole non muore,\\
+chi è distratto è come fosse già morto.\\
 \bigskip
 
 {\small\textit{Dhammapada v. 21}}
@@ -155,7 +157,7 @@ Chi è distratto è come fosse già morto.\\
 
 \part{Investigazione}
 
-\chapter{Che cos'e' la meditazione?}
+\chapter{Che cos'è la meditazione?}
 \input{./src-tex/what-is-meditation.tex}
 
 % \cleartoverso
@@ -171,13 +173,13 @@ Chi è distratto è come fosse già morto.\\
 \chapter{Consapevolezza del respiro}
 \input{./src-tex/watching-the-breath.tex}
 
-\chapter{Il mantra Buddho}
+\chapter{Mantra Buddho}
 \input{./src-tex/mantra-buddho.tex}
 
 \chapter{Sforzo e rilassamento}
 \input{./src-tex/effort-and-relaxation.tex}
 
-\chapter{La meditazione camminata}
+\chapter{Meditazione camminata}
 \input{./src-tex/walking-mindfully.tex}
 
 \chapter{Benevolenza}
@@ -189,7 +191,7 @@ Chi è distratto è come fosse già morto.\\
 \chapter{Ascoltare i pensieri}
 \input{./src-tex/listening-to-thought.tex}
 
-\chapter{Gli impedimenti e la cessazione degli impedimenti}
+\chapter{Impedimenti e loro cessazione}
 \input{./src-tex/hindrances.tex}
 
 \chapter{Vuoto e forma}
@@ -208,7 +210,7 @@ Chi è distratto è come fosse già morto.\\
 
 \part{Riflessione}
 
-\chapter{Nel mondo c'e' bisogno di saggezza}
+\chapter{Nel mondo c'è bisogno di saggezza}
 \input{./src-tex/need-for-wisdom.tex}
 
 %% Backmatter
@@ -257,10 +259,13 @@ Chi è distratto è come fosse già morto.\\
 % 
 % \textit{Grazie.}
 
+
 \cleartorecto
 \thispagestyle{plain}
-\input{./src-tex/copyright-details.tex}
+\input{./src-tex/dhammadana.tex}
 
-\emptysheet
+\cleartoverso
+\thispagestyle{plain}
+\input{./src-tex/copyright-details.tex}
 
 \end{document}
