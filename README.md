@@ -13,7 +13,7 @@ Paperback, First edition: `978-1-870205-45-0`
 
 Ebook, First edition: `978-1-870205-33-7`
 
-Paperback, Seconda edizione italiana: '978-8-8885706-35-4
+Paperback, Seconda edizione italiana: `978-8-8885706-35-4`
 
 ## Editions
 
